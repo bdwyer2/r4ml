@@ -427,7 +427,7 @@ setMethod("r4ml.recode",
           if (exists(cname, envir=icol2rec_env, inherits = F)) {
             icol2recode <- get(cname, envir=icol2rec_env, inherits = F)
             if (exists(cname, envir=icol2rec_env, inherits = F)) {
-              if (row_i == '') {
+              if (row_i == "" || is.na(row_i)) {
                 row_i = empty_string_recode
               }
               row_i_salty <- paste(salt, row_i, sep="")

@@ -202,7 +202,7 @@ test_that("r4ml.recode empty string ", {
                              c3=c(1,2,3,3))
   
   exp_meta_data <- list(
-    c1 = list(a = 1, b = 2, "r4ml::__empty_string__" = 3),
+    c1 = list(a = 1, b = 2, "r4ml__empty_string__" = 3),
     c2 = list(A = 1, B = 2, C = 3),
     c3 = list(a1 = 1, a2 = 2, a3 = 3)
   )

@@ -35,7 +35,7 @@ with(r4ml.env, {
   
   R4ML_SESSION_EXISTS <- FALSE
 
-  EMPTY_STRING_RECODE <- "r4ml::__empty_string__"
+  EMPTY_STRING_RECODE <- "r4ml__empty_string__"
 
   # Internall SystemML can reshuffle the row maintain the global index for order
   SYSML_MATRIX_INDEX_COL <- "__INDEX"
